@@ -300,3 +300,6 @@ h5 {
     display: flex;
     color: white;
 }
+
+hr {
+    border-color: #7289da;
