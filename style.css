@@ -116,6 +116,12 @@ h3 {
     font-size: 70px;
     margin-bottom: 30px;
 }
+
+i {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+}
 /*---------------
     HEADER
 ---------------*/
@@ -204,12 +210,28 @@ section:nth-child(2n) {
     justify-content: center;
     background-image: url(img/img/stars.svg);
     background-size: 20%;
+    margin-bottom: 50px;
+}
+
+.finalbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 15%;
+    width: 150px;
+    background-color: #7289da;
+    color: white;
 }
 /*---------------
     FOOTER
 ---------------*/
+
+footer {
+    background-color: #23272a;
+}
 .footer-top {
-    padding: 10px 0 30px 0;
+    padding: 80px 0 30px 0;
 }
 .footer-top .col-small {
     width: 25%;
@@ -227,4 +249,54 @@ section:nth-child(2n) {
 .footer-bottom .row {
     justify-content: space-between;
     align-items: center;
+}
+
+h4 {
+    color: #7289da;
+    font-size: xx-large;
+}
+
+.flag {
+    width: 25px;
+    height: 20px;
+}
+
+span {
+    color: white;
+}
+
+.fa-chevron-down {
+    color: white;
+}
+
+.social {
+    color: white;
+}
+
+h5 {
+    font-size: large;
+    color: #7289da;
+}
+
+.colonna {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-footer {
+    color: white;
+    font-size: large;
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+.buttonfoot {
+    width: 100px;
+    height: 50px;
+    border-radius: 25%;
+    background-color: #7289da;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
 }
