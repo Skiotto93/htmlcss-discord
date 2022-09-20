@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*---------------
@@ -82,31 +83,53 @@
 /*---------------
     COMMON
 ---------------*/
+.btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 35%;
+    background-color: white;
+}
+
 .container, .container-small {
     margin: auto;
 }
 .container {
     max-width: 1200px;
 }
-.container-small {
-    max-width: 900px;
-}
+    
 .row {
     display: flex;
 }
 
+h2 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
+p {
+    font-size: x-large;
+    margin-bottom: 30px;
+}
 /*---------------
     HEADER
 ---------------*/
 .header-top {
     padding: 16px 0;
+    background-color: #255EE9;
 }
 .header-top .row {
     align-items: center;
 }
 .logo, .login {
-    width: 20%;
+    width: 100px;
     padding: 0 5px;
+}
+
+.container-small {
+    max-width: 900px;
+    text-align: center;
+    color: white;
 }
 .main-nav {
     width: 60%;
@@ -117,18 +140,41 @@
     justify-content: center;
 }
 .main-nav ul li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 .main-nav ul li a {
     text-decoration: none;
     color: inherit;
 }
+
 .login {
-    text-align: right;
+    text-align: center;
 }
 
 .hero {
     padding: 50px 0;
+    background-image: url(img/img/jumbo.png);
+    background-size: cover;
+    height: 700px;
+   
+}
+
+.main-nav {
+    color: white;
+    font-size: large;
+}
+
+.download {
+    height: 50px;
+    border-radius: 15%;
+    width: 150px;
+}
+
+.openbrowser {
+    height: 50px;
+    border-radius: 15%;
+    background-color: black;
+    color: white;
 }
 /*---------------
     MAIN
