@@ -204,6 +204,10 @@ section:nth-child(2n) {
     width: 40%;
 }
 
+.bigphoto {
+    width: 100%;
+}
+
 .answer {
     font-size: x-large;
     display: flex;
