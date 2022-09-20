@@ -222,6 +222,7 @@ section:nth-child(2n) {
     width: 150px;
     background-color: #7289da;
     color: white;
+    margin: auto;
 }
 /*---------------
     FOOTER
@@ -267,10 +268,13 @@ span {
 
 .fa-chevron-down {
     color: white;
+    align-content: center;
 }
+
 
 .social {
     color: white;
+    font-size: 20px;
 }
 
 h5 {
@@ -303,3 +307,21 @@ h5 {
 
 hr {
     border-color: #7289da;
+}
+
+.nav-footer li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer li {
+    margin-top: 20px;
+}
+
+.Nations {
+    margin: 20px 0;
+}
+
+.social i {
+    margin-right: 25px;
+}
