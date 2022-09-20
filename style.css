@@ -198,6 +198,13 @@ section:nth-child(2n) {
     width: 40%;
 }
 
+.answer {
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/img/stars.svg);
+    background-size: 20%;
+}
 /*---------------
     FOOTER
 ---------------*/
